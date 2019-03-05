@@ -1,0 +1,253 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+# Zen Audio Player	README.md	/^# Zen Audio Player$/;"	1
+## Bookmark	README.md	/^## Bookmark$/;"	2
+## Browser Support	README.md	/^## Browser Support$/;"	2
+## Chrome Extension	README.md	/^## Chrome Extension$/;"	2
+## Contributing to Zen Audio Player	README.md	/^## Contributing to Zen Audio Player$/;"	2
+## Demo	README.md	/^## Demo$/;"	2
+## Project Sponsors	README.md	/^## Project Sponsors$/;"	2
+## Screenshot	README.md	/^## Screenshot$/;"	2
+### How to create a cus	README.md	/^### How to create a custom bookmark in Chrome:  $/;"	3
+$	test/new.js	/^        global.$ = global.jQuery = require("jquery");$/;"	r
+Browser	test/demo.js	/^var Browser = require("zombie");$/;"	r
+Browser	test/form.js	/^var Browser = require("zombie");$/;"	r
+Browser	test/javascript_components.js	/^var Browser = require("zombie");$/;"	r
+Browser	test/page_structure.js	/^var Browser = require("zombie");$/;"	r
+SECONDS	js/everything.js	/^    SECONDS: 60$/;"	r
+SPACEBAR	js/everything.js	/^    SPACEBAR: 32$/;"	r
+ZenPlayer	js/everything.js	/^var ZenPlayer = {$/;"	r
+_js	test/javascript_components.js	/^var _js = "";$/;"	r
+a	js/everything.js	/^(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),$/;"	r
+active	js/everything.js	/^        var active = $(this).hasClass("toggleRepeatActive");$/;"	r
+anchorTimestamps	js/everything.js	/^function anchorTimestamps(text, videoID) {$/;"	r
+anchorURLs	js/everything.js	/^function anchorURLs(text) {$/;"	r
+assert	test/demo.js	/^var assert = require("assert");$/;"	r
+assert	test/javascript_components.js	/^var assert = require("assert");$/;"	r
+assert	test/page_structure.js	/^var assert = require("assert");$/;"	r
+async	js/everything.js	/^                    async: false,$/;"	r
+async	js/zap-common.js	/^        async: false,$/;"	r
+autoplay	js/everything.js	/^            autoplay: true,$/;"	r
+break	js/everything.js	/^                break;$/;"	r
+cleanURL	js/everything.js	/^function cleanURL(url) {$/;"	r
+client	js/zap-common.js	/^        client: "youtube",$/;"	r
+controls	js/everything.js	/^            controls: ["play", "progress", "current-time", "duration", "mute", "volume"],$/;"	r
+convertHoursToSeconds	js/everything.js	/^function convertHoursToSeconds(hours) {$/;"	r
+convertMinutesToSeconds	js/everything.js	/^function convertMinutesToSeconds(minutes) {$/;"	r
+convertTimestamp	js/everything.js	/^function convertTimestamp(timestamp) {$/;"	r
+currentSearchQuery	js/everything.js	/^                currentSearchQuery,$/;"	r
+currentSearchQuery	js/everything.js	/^        var currentSearchQuery = getCurrentSearchQuery();$/;"	r
+currentTime	js/everything.js	/^                    var currentTime = plyrPlayer.plyr.embed.getCurrentTime();$/;"	r
+currentVideoID	js/everything.js	/^        currentVideoID = info.id;$/;"	r
+currentVideoID	js/everything.js	/^    var currentVideoID = getCurrentVideoID();$/;"	r
+currentVideoID	js/everything.js	/^var currentVideoID;$/;"	r
+data	js/everything.js	/^                    data: {$/;"	r
+data	js/zap-common.js	/^        data: {$/;"	r
+dataType	js/everything.js	/^                    dataType: "json",$/;"	r
+dataType	js/zap-common.js	/^        dataType: "json",$/;"	r
+demos	js/everything.js	/^var demos = [$/;"	r
+demos	test/demo.js	/^            var demos = [$/;"	r
+description	js/everything.js	/^                        description = data.items[0].snippet.description;$/;"	r
+description	js/everything.js	/^        description = anchorTimestamps(description, videoID);$/;"	r
+description	js/everything.js	/^        var description = "";$/;"	r
+description	js/everything.js	/^        var description = anchorURLs(this.videoDescription);$/;"	r
+document	js/everything.js	/^})(window,document,"script","\/\/www.google-analytics.com\/analytics.js","ga");$/;"	r
+domain	js/zap-common.js	/^    var domain = url.domain();$/;"	r
+ds	js/zap-common.js	/^        ds: "yt"$/;"	r
+errorMessage	js/everything.js	/^var errorMessage = {$/;"	r
+everything	js/everything.js	/^var everything = {};$/;"	r
+exports	js/everything.js	/^module.exports = everything;$/;"	r
+faviconPath	test/page_structure.js	/^        var faviconPath = path.join("img", "favicon.ico");$/;"	r
+fields	js/everything.js	/^                        fields: "items\/snippet\/description",$/;"	r
+fields	js/zap-common.js	/^            fields: "items\/snippet\/description",$/;"	r
+focusId	js/everything.js	/^var focusId = "pJ5FD9_Orbg";$/;"	r
+formValue	js/everything.js	/^            formValue = formValue.replace(\/&t=\\d*$\/g, "");$/;"	r
+formValue	js/everything.js	/^        var formValue = $.trim($("#v").val());$/;"	r
+formValueTime	js/everything.js	/^            formValueTime = parseInt(formValueTime[1], 10);$/;"	r
+formValueTime	js/everything.js	/^        var formValueTime = \/[?&]t=(\\d*)\/g.exec(formValue);$/;"	r
+format	js/zap-common.js	/^            videoInfo.format = "video ID";$/;"	r
+format	js/zap-common.js	/^            videoInfo.format = longUrlDomain;$/;"	r
+format	js/zap-common.js	/^            videoInfo.format = shortUrlDomain;$/;"	r
+format	js/zap-common.js	/^        format: "other",$/;"	r
+fs	test/page_structure.js	/^var fs = require("fs");$/;"	r
+getAutocompleteSuggestions	js/everything.js	/^\/* global URI getSearchResults, getAutocompleteSuggestions, parseYoutubeVideoID, getYouTubeVideoDescription *\/$/;"	r
+getAutocompleteSuggestions	js/zap-common.js	/^function getAutocompleteSuggestions(query, callback) {$/;"	r
+getCurrentSearchQuery	js/everything.js	/^function getCurrentSearchQuery() {$/;"	r
+getCurrentTimePosition	js/everything.js	/^function getCurrentTimePosition() {$/;"	r
+getCurrentVideoID	js/everything.js	/^function getCurrentVideoID() {$/;"	r
+getParameterByName	test/demo.js	/^function getParameterByName(url, name) {$/;"	r
+getSearchResults	js/zap-common.js	/^function getSearchResults(query, youTubeDataApiKey, onData, onFail) {$/;"	r
+getVideoDescription	js/everything.js	/^    getVideoDescription: function(videoID) {$/;"	r
+getYouTubeVideoDescription	js/zap-common.js	/^function getYouTubeVideoDescription(videoID, youTubeDataApiKey, onSuccess, onFail) {$/;"	r
+handleYouTubeError	js/everything.js	/^function handleYouTubeError(details) {$/;"	r
+hashTags	js/everything.js	/^        hashTags: "ZenAudioPlayer",$/;"	r
+hh	js/everything.js	/^      hh:mm:ss$/;"	r
+hide	js/everything.js	/^    hide: function() {$/;"	r
+hideControls	js/everything.js	/^            hideControls: false$/;"	r
+highlight	js/everything.js	/^        highlight: true,$/;"	r
+hint	js/everything.js	/^        hint: false,$/;"	r
+hours	js/everything.js	/^        hours = convertHoursToSeconds(timeComponents[0]);$/;"	r
+hours	js/everything.js	/^    var hours = 0;$/;"	r
+href	js/everything.js	/^                            window.location.href = makeListenURL(videoID, formValueTime);$/;"	r
+href	js/everything.js	/^                            window.location.href = makeSearchURL(formValue);$/;"	r
+href	js/everything.js	/^            window.location.href = makeListenURL(pickedDemo);$/;"	r
+href	js/everything.js	/^        window.location.href = makeListenURL(focusId);$/;"	r
+href	js/everything.js	/^        window.location.href = makeSearchURL(datum);$/;"	r
+id	js/everything.js	/^                        id: videoID$/;"	r
+id	js/everything.js	/^    var id = getCurrentVideoID();$/;"	r
+id	js/zap-common.js	/^            id: videoID$/;"	r
+id	js/zap-common.js	/^            videoInfo.id = uri;$/;"	r
+id	js/zap-common.js	/^            videoInfo.id = url.path().slice(1);$/;"	r
+id	js/zap-common.js	/^            videoInfo.id = url.search(true).v;$/;"	r
+id	js/zap-common.js	/^            videoInfo.id = videoInfo.id.substring(0, slashPos);$/;"	r
+id	js/zap-common.js	/^        id: null$/;"	r
+id	js/zap-common.js	/^ * @returns {{format: string, id: string}} - Object containing format and YouTube ID.$/;"	r
+imgFolderPath	test/page_structure.js	/^        var imgFolderPath = path.join(__filename, "..", "..", "img") + path.sep;$/;"	r
+indexHTMLURL	test/demo.js	/^var indexHTMLURL = "file:\/\/" + path.join(__dirname, "..", "index.html");$/;"	r
+indexHTMLURL	test/form.js	/^var indexHTMLURL = "file:\/\/" + path.join(__dirname, "..", "index.html");$/;"	r
+indexHTMLURL	test/javascript_components.js	/^var indexHTMLURL = "file:\/\/" + path.join(__dirname, "..", "index.html");$/;"	r
+indexHTMLURL	test/page_structure.js	/^var indexHTMLURL = "file:\/\/" + path.join(__dirname, "..", "index.html");$/;"	r
+info	js/everything.js	/^    var info = parseYoutubeVideoID(url);$/;"	r
+init	js/everything.js	/^    init: function() {$/;"	r
+init	js/everything.js	/^    init: function(videoID) {$/;"	r
+isFileProtocol	js/everything.js	/^function isFileProtocol() {$/;"	r
+isPlaying	js/everything.js	/^                this.isPlaying = false;$/;"	r
+isPlaying	js/everything.js	/^                this.isPlaying = true;$/;"	r
+isPlaying	js/everything.js	/^    isPlaying: false,$/;"	r
+isRepeat	js/everything.js	/^        ZenPlayer.isRepeat = $(this).hasClass("toggleRepeatActive");$/;"	r
+isRepeat	js/everything.js	/^    isRepeat: false,$/;"	r
+key	js/everything.js	/^                        key: youTubeDataApiKey,$/;"	r
+key	js/zap-common.js	/^            key: youTubeDataApiKey,$/;"	r
+key	js/zap-common.js	/^        key: youTubeDataApiKey,$/;"	r
+keyCodes	js/everything.js	/^var keyCodes = {$/;"	r
+logError	js/everything.js	/^function logError(jqXHR, textStatus, errorThrown, _errorMessage) {$/;"	r
+longUrlDomain	js/zap-common.js	/^    var longUrlDomain = "youtube.com";$/;"	r
+m	js/everything.js	/^m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)$/;"	r
+makeListenURL	js/everything.js	/^function makeListenURL(videoID, videoPosition) {$/;"	r
+makeSearchURL	js/everything.js	/^function makeSearchURL(searchQuery) {$/;"	r
+message	js/everything.js	/^                message = "looks like an invalid video ID";$/;"	r
+message	js/everything.js	/^                message = "the video owner won't allow us to play that video";$/;"	r
+message	js/everything.js	/^                message = "we can't find that video, it might be private or removed";$/;"	r
+message	js/everything.js	/^                message = "we can't play that video here, or something is wrong with YouTube's iframe API";$/;"	r
+message	js/everything.js	/^        var message = "Got an unknown error, check the JS console.";$/;"	r
+minLength	js/everything.js	/^        minLength: 1$/;"	r
+minutes	js/everything.js	/^        minutes = convertMinutesToSeconds(timeComponents[0]);$/;"	r
+minutes	js/everything.js	/^        minutes = convertMinutesToSeconds(timeComponents[1]);$/;"	r
+minutes	js/everything.js	/^    var minutes = 0;$/;"	r
+mm	js/everything.js	/^      mm:ss$/;"	r
+name	test/demo.js	/^    name = name.replace(\/[\\[]\/, "\\\\[").replace(\/[\\]]\/, "\\\\]"); \/\/ eslint-disable-line no-useless-escape$/;"	r
+oldUrl	test/demo.js	/^        var oldUrl = browser.location.href;$/;"	r
+opts	js/everything.js	/^        opts$/;"	r
+opts	js/everything.js	/^    var opts = {$/;"	r
+parseBase10Int	js/everything.js	/^function parseBase10Int(value) {$/;"	r
+parseYoutubeVideoID	js/zap-common.js	/^function parseYoutubeVideoID(uri) {$/;"	r
+part	js/everything.js	/^                        part: "snippet",$/;"	r
+part	js/zap-common.js	/^            part: "snippet",$/;"	r
+part	js/zap-common.js	/^        part: "snippet",$/;"	r
+path	test/demo.js	/^var path = require("path");$/;"	r
+path	test/form.js	/^var path = require("path");$/;"	r
+path	test/javascript_components.js	/^var path = require("path");$/;"	r
+path	test/page_structure.js	/^var path = require("path");$/;"	r
+pause	js/everything.js	/^    pause: function() {$/;"	r
+pickDemo	js/everything.js	/^everything.pickDemo = function () {$/;"	r
+pickedDemo	js/everything.js	/^        var pickedDemo = everything.pickDemo();$/;"	r
+play	js/everything.js	/^    play: function() {$/;"	r
+plyrPlayer	js/everything.js	/^        plyrPlayer = document.querySelector(".plyr");$/;"	r
+plyrPlayer	js/everything.js	/^var plyrPlayer;$/;"	r
+processSync	js/everything.js	/^        source: function (query, processSync, processAsync) {$/;"	r
+r	js/everything.js	/^        r = wrapParseYouTubeVideoID(v);$/;"	r
+r	js/everything.js	/^        r = wrapParseYouTubeVideoID(v.pop());$/;"	r
+r	js/everything.js	/^    var r;$/;"	r
+re	js/everything.js	/^    var re = \/((?:[0-5]\\d|\\d|)(?:\\d|\\:[0-5]\\d)(?:$|\\:[0-5]\\d))\/g; \/\/ eslint-disable-line no-useless-escape$/;"	r
+re	js/everything.js	/^    var re = \/((?:http|https)\\:\\\/\\\/[a-zA-Z0-9\\-\\.]+\\.[a-zA-Z]{2,3}(?:\\\/\\S*[^\\.\\s])?)\/g; \/\/ eslint-disable-line no-useless-escape$/;"	r
+regex	test/demo.js	/^    var regex = new RegExp("[\\\\?&]" + name + "=([^&#]*)"),$/;"	r
+responseText	js/everything.js	/^    var responseText = JSON.parse(jqXHR.error().responseText);$/;"	r
+results	test/demo.js	/^        results = regex.exec(url);$/;"	r
+resumeTime	js/everything.js	/^                        resumeTime = 0;$/;"	r
+resumeTime	js/everything.js	/^                        resumeTime = currentTime;$/;"	r
+resumeTime	js/everything.js	/^                    var resumeTime = window.sessionStorage[videoID];$/;"	r
+resumeTime	js/everything.js	/^                var resumeTime = 0;$/;"	r
+return	js/everything.js	/^                        return;$/;"	r
+return	js/everything.js	/^                    return;$/;"	r
+return	js/everything.js	/^        return;$/;"	r
+s	js/everything.js	/^(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){$/;"	r
+seconds	js/everything.js	/^        seconds = parseBase10Int(timeComponents[1]);$/;"	r
+seconds	js/everything.js	/^        seconds = parseBase10Int(timeComponents[2]);$/;"	r
+seconds	js/everything.js	/^    var seconds = 0;$/;"	r
+setupPlyrToggle	js/everything.js	/^    setupPlyrToggle: function() {$/;"	r
+setupTitle	js/everything.js	/^    setupTitle: function() {$/;"	r
+setupVideoDescription	js/everything.js	/^    setupVideoDescription: function(videoID) {$/;"	r
+shortUrlDomain	js/zap-common.js	/^    var shortUrlDomain = "youtu.be";$/;"	r
+show	js/everything.js	/^    show: function() {$/;"	r
+show	js/everything.js	/^    show: function(message) {$/;"	r
+slashPos	js/zap-common.js	/^        var slashPos = videoInfo.id.indexOf("\/");$/;"	r
+source	js/everything.js	/^        source: function (query, processSync, processAsync) {$/;"	r
+sources	js/everything.js	/^                sources: [{$/;"	r
+src	js/everything.js	/^                    src: currentVideoID,$/;"	r
+start	js/everything.js	/^                    var start = "<li><h4><a href=?v=";$/;"	r
+success	js/everything.js	/^                    success: function(data) {$/;"	r
+success	js/zap-common.js	/^        success: onSuccess$/;"	r
+t	js/everything.js	/^                var t = getCurrentTimePosition();$/;"	r
+t	js/everything.js	/^    var t = parseInt(URI(window.location).search(true).t, 10);$/;"	r
+text	js/everything.js	/^        opts.text = "I'm listening to " + plyrPlayer.plyr.embed.getVideoData().title;$/;"	r
+text	js/everything.js	/^        text: "Listen to YouTube videos without the distracting visuals",$/;"	r
+textStatus	js/everything.js	/^                    logError(jqXHR, textStatus, errorThrown, "Lookup error");$/;"	r
+textStatus	js/everything.js	/^                    logError(jqXHR, textStatus, errorThrown, "Search error");$/;"	r
+textStatus	js/everything.js	/^                    logError(jqXHR, textStatus, errorThrown, "Video Description error");$/;"	r
+textStatus	js/everything.js	/^                function(jqXHR, textStatus, errorThrown) {$/;"	r
+textStatus	js/everything.js	/^                }).fail(function(jqXHR, textStatus, errorThrown) {$/;"	r
+textStatus	js/everything.js	/^function logError(jqXHR, textStatus, errorThrown, _errorMessage) {$/;"	r
+that	js/everything.js	/^            var that = this;$/;"	r
+timeComponents	js/everything.js	/^    var timeComponents = timestamp.split(":");$/;"	r
+timeIntervals	js/everything.js	/^var timeIntervals = {$/;"	r
+title	js/everything.js	/^                title: "Title",$/;"	r
+tmpVideoTitle	js/everything.js	/^            tmpVideoTitle = "<i class=\\"fa fa-music\\"><\/i> " + tmpVideoTitle;$/;"	r
+tmpVideoTitle	js/everything.js	/^        var tmpVideoTitle = this.videoTitle;$/;"	r
+toggleElement	js/everything.js	/^    var toggleElement = $(toggleID);$/;"	r
+toggleElement	js/everything.js	/^function toggleElement(event, toggleID, buttonText) {$/;"	r
+toggleID	js/everything.js	/^function toggleElement(event, toggleID, buttonText) {$/;"	r
+toggleTextElement	js/everything.js	/^    var toggleTextElement = $("#" + event.currentTarget.id);$/;"	r
+trackjs	test/javascript_components.js	/^        var trackjs = browser.evaluate("window._trackJs");$/;"	r
+type	js/everything.js	/^                    type: "youtube"$/;"	r
+type	js/everything.js	/^                type: "video",$/;"	r
+type	js/zap-common.js	/^        type: "video"$/;"	r
+updateTweetMessage	js/everything.js	/^function updateTweetMessage() {$/;"	r
+updated	js/everything.js	/^                that.updated = true;$/;"	r
+updated	js/everything.js	/^    updated: false,$/;"	r
+updatedUrl	js/everything.js	/^                    updatedUrl = that.videoUrl + "&t=" + Math.round(resumeTime);$/;"	r
+updatedUrl	js/everything.js	/^                    updatedUrl = that.videoUrl;$/;"	r
+updatedUrl	js/everything.js	/^                var updatedUrl = that.videoUrl;$/;"	r
+url	js/everything.js	/^                    url: "https:\/\/www.googleapis.com\/youtube\/v3\/videos",$/;"	r
+url	js/everything.js	/^        opts.url = url.toString();$/;"	r
+url	js/everything.js	/^        url: url.toString()$/;"	r
+url	js/everything.js	/^    var url = URI("https:\/\/ZenPlayer.Audio");$/;"	r
+url	js/everything.js	/^    var url = cleanURL(window.location);$/;"	r
+url	js/zap-common.js	/^        url: "https:\/\/www.googleapis.com\/youtube\/v3\/videos",$/;"	r
+url	js/zap-common.js	/^    var url = URI(uri);$/;"	r
+v	js/everything.js	/^    var v = URI(window.location).search(true).v;$/;"	r
+verboseMessage	js/everything.js	/^                verboseMessage = "The owner of the requested video does not allow it to be played in embedded players.";$/;"	r
+verboseMessage	js/everything.js	/^                verboseMessage = "The request contains an invalid parameter value. For example, this error occurs if you specify a video ID that does not have 11 characters, or if the video ID contains invalid characters, such as exclamation points or asterisks.";$/;"	r
+verboseMessage	js/everything.js	/^                verboseMessage = "The requested content cannot be played in an HTML5 player or another error related to the HTML5 player has occurred.";$/;"	r
+verboseMessage	js/everything.js	/^                verboseMessage = "The video requested was not found. This error occurs when a video has been removed (for any reason) or has been marked as private.";$/;"	r
+verboseMessage	js/everything.js	/^                verboseMessage = "This error is the same as 101. It's just a 101 error in disguise!";$/;"	r
+verboseMessage	js/everything.js	/^        var verboseMessage = message;$/;"	r
+videoAuthor	js/everything.js	/^                that.videoAuthor = plyrPlayer.plyr.embed.getVideoData().author;$/;"	r
+videoDescription	js/everything.js	/^                that.videoDescription = that.getVideoDescription(videoID);$/;"	r
+videoDuration	js/everything.js	/^                that.videoDuration = plyrPlayer.plyr.embed.getDuration();$/;"	r
+videoDuration	js/everything.js	/^                var videoDuration = plyrPlayer.plyr.embed.getDuration();$/;"	r
+videoID	js/everything.js	/^                videoID,$/;"	r
+videoID	js/everything.js	/^            var videoID = wrapParseYouTubeVideoID(formValue, true);$/;"	r
+videoInfo	js/zap-common.js	/^    var videoInfo = {$/;"	r
+videoPosition	js/everything.js	/^                    that.videoPosition = t;$/;"	r
+videoTitle	js/everything.js	/^                that.videoTitle = plyrPlayer.plyr.embed.getVideoData().title;$/;"	r
+videoUrl	js/everything.js	/^                that.videoUrl = plyrPlayer.plyr.embed.getVideoUrl();$/;"	r
+waitDuration	test/demo.js	/^    waitDuration: 29 * 1000$/;"	r
+wrapParseYouTubeVideoID	js/everything.js	/^function wrapParseYouTubeVideoID(url) {$/;"	r
+youTubeDataApiKey	js/everything.js	/^                youTubeDataApiKey,$/;"	r
+youTubeDataApiKey	js/everything.js	/^var youTubeDataApiKey = "AIzaSyCxVxsC5k46b8I-CLXlF3cZHjpiqP_myVk";$/;"	r
+youTubeDataApiKey	js/zap-common.js	/^function getSearchResults(query, youTubeDataApiKey, onData, onFail) {$/;"	r
+youTubeDataApiKey	js/zap-common.js	/^function getYouTubeVideoDescription(videoID, youTubeDataApiKey, onSuccess, onFail) {$/;"	r

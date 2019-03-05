@@ -14,6 +14,10 @@
         "time": true,
         "plyr": true
     },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
     "rules": {
         "brace-style": [
             2,

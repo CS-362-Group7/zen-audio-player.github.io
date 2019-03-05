@@ -511,9 +511,11 @@ var demos = [
     "03O2yKUgrKw"  // Mike Mago & Dragonette - Outlines
 ];
 
-function pickDemo() {
+var everything = {};
+everything.pickDemo = function () {
     return demos[Math.floor(Math.random() * demos.length)];
-}
+};
+module.exports = everything;
 
 $(function() {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
@@ -649,7 +651,7 @@ $(function() {
 
         // Don't continue appending to the URL if it appears "good enough".
         // This is likely only a problem if the demo link didn't work right the first time
-        var pickedDemo = pickDemo();
+        var pickedDemo = everything.pickDemo();
         if (window.location.href.indexOf(demos) === -1) {
             window.location.href = makeListenURL(pickedDemo);
         }
